@@ -1,0 +1,121 @@
+baseURL = 'https://larry.wapnitsky.com/'
+defaultContentLanguage = "en"
+languageCode = 'en-us'
+title = 'The Random Ramblings of Larry G. Wapnitsky'
+#theme = 'ananke'
+theme = 'FeelIt'
+
+[params]
+  version = "1.0.X"
+  defaultTheme = "dark"
+  dateFormat = "2006-01-02"
+  SourceMap = true
+
+[params.header.title]
+  rss = true
+
+[params.footer]
+  since = 2023
+
+[params.about]
+  enable = true
+
+[params.home]
+  rss = 10
+  
+[params.home.profile]
+  enable = true
+  avatarURL = "uploads/busy-mind.jpg"
+#  gravatarEmail = "larry@wapnitsky.com"
+  title = "The Random Ramblings"
+  subtitle = "of Larry G. Wapnitsky"
+  typeit = true
+
+[params.home.posts]
+  enable = true
+  paginate = 6
+  imagePreview = true
+
+[params.page]
+# whether to enable the fontawesome extended syntax
+    fontawesome = true
+    # FeelIt NEW | 1.0.0
+# whether to use the fontawesome as cdn source
+  cdnfontawesome = true
+  linkToMarkdown = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    pre = "<i class='fas fa-home'></i>"
+    name = "Home"
+    url = "/"
+    title = "Home Page"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = "<i class='fas fa-sticky-note'></i>"
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+ [[menu.main]]
+   identified = "tests"
+   name = "Tests"
+   url = "/tests/"
+   weight = 1
+ [[menu.main]]
+    identifier = "tags"
+    pre = "<i class='fas fa-tag'></i>"
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 3
+
+# Markup related config in Hugo
+[markup]
+  # Syntax Highlighting
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    # false is a necessary configuration
+    # (https://github.com/khusika/FeelIt/issues/158)
+    noClasses = false
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# Author config
+[author]
+  name = "Larry G. Wapnitsky"
+  email = "larry@wapnitsky.com"
+  link = ""
