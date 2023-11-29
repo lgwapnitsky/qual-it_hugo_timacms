@@ -16,6 +16,7 @@ export default defineConfig({
   token: process.env.TINA_TOKEN,
 
   build: {
+    host: '0.0.0.0',
     outputFolder: "admin",
     publicFolder: "static",
   },
