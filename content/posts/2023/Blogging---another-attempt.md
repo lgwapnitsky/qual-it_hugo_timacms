@@ -3,6 +3,8 @@ title: Blogging - another attempt
 date: 2023-11-28T05:00:00.000Z
 author: Larry G. Wapnitsky
 description: One more try
+featuredImage: /uploads/1_hEfPhMFOV9oRBA15H083aQ.webp
+featuredImagePreview: ''
 Tags:
   - blog
 ---
