@@ -16,13 +16,12 @@ export default defineConfig({
   token: process.env.TINA_TOKEN,
 
   build: {
-    host: '0.0.0.0',
     outputFolder: "admin",
     publicFolder: "static",
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "uploads",
       publicFolder: "static",
     },
   },
@@ -30,17 +29,84 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "test",
+	label: "Tests",
+	path: "content/tests/",
         fields: [
-          {
+	  {
             type: "string",
             name: "title",
             label: "Title",
             isTitle: true,
             required: true,
           },
+	  ],
+	  },
+	  
+      {
+        name: "post",
+        label: "Posts",
+        path: "content/posts/",
+        fields: [
+	  {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+            ui: {
+              timeFormat: "HH:mm"
+            },
+            required: true,
+          },
+	            {
+            type: "datetime",
+            name: "lastmod",
+            label: "Last Modified",
+            ui: {
+              timeFormat: "HH:mm"
+            },
+            required: false,
+          },
+
+	  {
+	    type: "string",
+	    name: "author",
+	    label: "Author",
+	    required: true,
+	  },
+          {
+	    type: "string",
+            name: "description",
+            label: "Description",
+	    ui: {
+	      component: "textarea"
+	    }
+          },
+	  {
+	    type: "image",
+	    label: "Featured Image",
+	    name: "featuredImage",
+	  },
+	  {
+	    type: "image",
+	    label: "Preview Image",
+	    name: "featuredImagePreview",
+	  },
+          {
+	    type: "string",
+	    label: "Tags",
+	    name: "Tags",
+	    list: true,
+	    ui: {
+	      component: "tags"
+	    }
+	  },
           {
             type: "rich-text",
             name: "body",
