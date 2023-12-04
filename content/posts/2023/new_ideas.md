@@ -6,7 +6,7 @@ lastmod: 2023-12-04T05:05:08-05:00
 draft: true
 author: "Larry G. Wapnitsky"
 authorLink: ""
-description: "I've had some ideas about what I want to write about here, maybe even turn some of it into videos. What are my thoughts?"
+description: "I've had some ideas about what I want to write about here. What are my thoughts?"
 
 tags:
   - blog
@@ -28,3 +28,5 @@ license: ""
 ---
 
 <!--more-->
+
+
