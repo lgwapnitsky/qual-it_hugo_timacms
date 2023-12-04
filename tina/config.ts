@@ -56,6 +56,12 @@ export default defineConfig({
             isTitle: true,
             required: true,
           },
+	  {
+            type: "string",
+            name: "subtitle",
+            label: "Subtitle",
+            required: false,
+          },
           {
             type: "datetime",
             name: "date",
@@ -74,12 +80,22 @@ export default defineConfig({
             },
             required: false,
           },
-
+{
+	type: "boolean",
+	name: "draft",
+	label: "Draft",
+},
 	  {
 	    type: "string",
 	    name: "author",
 	    label: "Author",
 	    required: true,
+	  },
+	  {
+	    type: "string",
+	    name: "authorLink",
+	    label: "Author Link",
+	    required: false,
 	  },
           {
 	    type: "string",
@@ -102,7 +118,16 @@ export default defineConfig({
           {
 	    type: "string",
 	    label: "Tags",
-	    name: "Tags",
+	    name: "tags",
+	    list: true,
+	    ui: {
+	      component: "tags"
+	    }
+	  },
+          {
+	    type: "string",
+	    label: "Categories",
+	    name: "categories",
 	    list: true,
 	    ui: {
 	      component: "tags"
