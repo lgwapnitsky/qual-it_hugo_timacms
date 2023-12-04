@@ -1,13 +1,15 @@
 ---
 layout: layouts/post.njk
-title: "Chips of deception - Tteokbokki"
-summary: "Looked hot...was not. Going by the packaging alone, I expected these to kill my tastebuds, but mild disappointment was all I got."
+summary: >-
+  Looked hot...was not. Going by the packaging alone, I expected these to kill
+  my tastebuds, but mild disappointment was all I got.
 hero: /images/posts/snacks/tteokbokki_front_rotated.png
 thumb: /images/posts/snacks/tteokbokki_front_rotated.png
 tags:
   - food
   - chips
   - snacks
+title: Chips of deception - Tteokbokki
 ---
 
 Tteokbokki is well-known as a spicy Korean street food - long, tubular rice cakes with a sauce made traditionally from gochujang and anchove-based broth. Considering how spicy it can be served on the street, this snack, once I looked it up after buying it, should have been good and spicy. Even without looking it up, the picture of the smiling hot pepper on the front, and the inclusion of capsaicin powder in the ingredients should have been a good marker pointing to lots of spice. It even says "HOT SPICE" on the back!! Well...

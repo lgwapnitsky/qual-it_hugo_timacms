@@ -1,12 +1,15 @@
 ---
 layout: layouts/post.njk
-title: Pause and Effect
-summary: What happened in the first 2 weeks of the year that cause me to temporarily pause my workouts? While partially physical, most of it was mental. Here's the next steps...
+summary: >-
+  What happened in the first 2 weeks of the year that cause me to temporarily
+  pause my workouts? While partially physical, most of it was mental. Here's the
+  next steps...
 hero: /images/posts/pause_button.png
 thumb: /images/posts/pause_button.png
 tags:
   - health
   - fitness
+title: Pause and Effect
 ---
 
 I'm going to be completely honest...I don't like working out.
@@ -20,5 +23,3 @@ I did start hitting the dreadmill a bit again, as well. Due to increased weight 
 These things combined with other issues (some related to the pandemic) have set me back a bit mentally. I'm finding lower motivation in my life to exercise. I've checked in with my accountability group, and they're great at pushing me, but it's when I push back that's the problem. We're all struggling in one way or another, so I know I'm not alone. I just need to start allowing their pushing to knock me down to the point where I want to get back up on my own.
 
 Like I said in the beginning, I'm going to be open about stuff, so here I am laying it out. Want to help me be accountable? Want to help me be motivated? Feel free to reach out to me on [Twitter](https://twitter.com/lgwapnitsky), hit me up on [Telegram](http://telegram.me/larrygwapnitsky), or find me on other social media.
-
-

@@ -1,17 +1,20 @@
 ---
 layout: layouts/post.njk
-title: "Hot Triple Snack Round-Up: Chana Jor Garam, Ghost Pepper Potato Chips, and Hot Shrimp Crackers"
-summary: "A few trips to different markets and I 'bagged' myself a few new snacks to try out. What did I get, and how did they taste?"
+summary: >-
+  A few trips to different markets and I 'bagged' myself a few new snacks to try
+  out. What did I get, and how did they taste?
 hero: /images/posts/snacks/spicy_pepper_toon.png
 thumb: /images/posts/snacks/spicy_pepper_toon.png
 tags:
   - food
   - chips
   - snacks
+title: >-
+  Hot Triple Snack Round-Up: Chana Jor Garam, Ghost Pepper Potato Chips, and Hot
+  Shrimp Crackers
 ---
 
-## Chana Jor Garam ##
-
+## Chana Jor Garam
 
 Stop #1 was at my favorite Indian grocery store. I'm telling you, I have a LOT of trouble leaving this place without browsing the snack aisle. This snack stuck out at me like a sore thumb due to the color of the bag (most of the surrounding ones were yellow).
 
@@ -25,7 +28,7 @@ The actual snack was smaller than I expected, but boy, were these full of flavor
 
 Would I get these again? Probably, and I'd put them in a bowl to serve as a snack at a party. They're different, but in a great way.
 
-## Herr's Ghost Pepper Potato Chips ##
+## Herr's Ghost Pepper Potato Chips
 
 Next stop, Ocean State Job Lot. Here, the snack aisles are stacked with boxes and boxes of chips, but these were highlighted on an end-cap. Ghost pepper? Don't mind if I do!
 
@@ -35,7 +38,7 @@ Right out of the bag, I knew these were going to have some kick. The smell was p
 
 I'd consider these again, but they're mostly a fad. Maybe if I had a bunch of people over who I knew enjoyed hot foods I'd pick them up, but I wouldn't go out of my way.
 
-## Nongshim Spicy Shrimp Crackers ##
+## Nongshim Spicy Shrimp Crackers
 
 Stop 3 - Asian Grocery #1. I love shrimp chips and shrimp crackers. I definitely go out of my way to enjoy them, but I've never noticed the spicy ones in the store. Once I saw these, there was no question they were going in my cart.
 

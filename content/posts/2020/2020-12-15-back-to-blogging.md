@@ -1,13 +1,15 @@
 ---
 layout: layouts/post.njk
-title: "I'm back to blogging"
-summary: "It's been a while since I've worked on my blog, but there's no better time than now to refresh the way it looks and to start writing again."
-hero:  /images/posts/reset-300x234.jpg
+summary: >-
+  It's been a while since I've worked on my blog, but there's no better time
+  than now to refresh the way it looks and to start writing again.
+hero: /images/posts/reset-300x234.jpg
 thumb: /images/posts/reset-300x234.jpg
-date: 2020-12-15
 tags:
   - blog
   - starting_over
+title: I'm back to blogging
+date: 2020-12-15T00:00:00.000Z
 ---
 
 Overall, it should be good for my mind to wipe away the cobwebs and be creative. But what's been keeping me from writing all this time, and what plans do I have?
