@@ -1,0 +1,5 @@
+hello
+
+<footer>
+  {{ partial "posts/giscus.html" . }}
+</footer>

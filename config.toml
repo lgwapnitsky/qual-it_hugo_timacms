@@ -44,6 +44,22 @@ theme = 'FeelIt'
   cdnfontawesome = true
   linkToMarkdown = true
 
+[params.page.comment]
+  enable = true
+
+[params.giscus]
+repo = "lgwapnitsky/lgwapnitsky-blog-comments"
+repoID = "R_kgDOLUKzVA"
+category = "Blog Comments"
+categoryID = "DIC_kwDOLUKzVM4Cdtp7"
+mapping = "og:title"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "top"
+theme = "preferred_color_scheme"
+lang = "en"
+loading = "lazy"
+
 [menu]
   [[menu.main]]
     identifier = "home"
