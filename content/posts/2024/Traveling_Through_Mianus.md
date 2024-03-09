@@ -9,6 +9,7 @@ description: "I'm gonna make a HOLE lot of puns about travelling past this town 
 
 tags:
   - blog
+  - travel
 categories:
   - travel
 
@@ -16,7 +17,7 @@ hiddenFromHomePage: false
 hiddenFromSearch: false
 
 featuredImage: "/uploads/images/posts/map_of_mianus_ct.jpg"
-featuredImagePreview: "/uploads/images/posts/map_of_mianus_ct_tn.jpg"
+featuredImagePreview: "/uploads/images/thumbnails/map_of_mianus_ct_tn.jpg"
 
 toc:
   enable: true
