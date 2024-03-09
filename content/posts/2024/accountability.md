@@ -5,7 +5,7 @@ date: 2024-03-04T10:59:40-05:00
 author: "Larry G. Wapnitsky"
 description: "I'm working on myself, but I need a little accountability help"
 featuredImage: "/uploads/images/posts/accountability.jpg"
-featuredImagePreview: ""
+featuredImagePreview: "/uploads/images/posts/accountability.jpg"
 tags:
   - blog
 categories: []
