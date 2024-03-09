@@ -27,4 +27,5 @@ lightgallery: false
 license: ""
 ---
 
-<!--more-->
+As a professional driver/chauffeur, I tend to go through a LOT of towns and cities. Some of the names are more common, some are a little strange, maybe because of their original language, maybe because they're just strange by nature (looking at you, Zzyzx). Yet, while driving to Boston this past week, I had to hold in my laughter and comments when I saw the sign near Greenwich and Stamford, Connecticut for MIANUS!
+
