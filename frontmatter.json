@@ -47,64 +47,97 @@
     },
     {
       "name": "posts",
-      "pageBundle":false,
-      "previewPath": null,
+      "pageBundle": false,
       "fields": [
         {
-          "title": "Title",
+          "title": "title",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "Subtitle",
+          "title": "subtitle",
           "name": "subtitle",
           "type": "string"
         },
         {
-          "title": "Description",
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "description",
           "name": "description",
           "type": "string"
         },
         {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Last Modififed date",
-          "name": "lastmod",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "Featured Image",
+          "title": "featuredImage",
           "name": "featuredImage",
           "type": "image"
         },
         {
-          "title": "Featured Image Preview",
+          "title": "featuredImagePreview",
           "name": "featuredImagePreview",
           "type": "image"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "hiddenFromHomePage",
+          "name": "hiddenFromHomePage",
+          "type": "boolean"
+        },
+        {
+          "title": "hiddenFromSearch",
+          "name": "hiddenFromSearch",
+          "type": "boolean"
+        },
+        {
+          "title": "toc",
+          "name": "toc",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "enable",
+              "name": "enable",
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "title": "math",
+          "name": "math",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "enable",
+              "name": "enable",
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "title": "lightgallery",
+          "name": "lightgallery",
+          "type": "boolean"
+        },
+        {
+          "title": "license",
+          "name": "license",
+          "type": "string"
         }
-        
       ]
     }
   ],
@@ -113,38 +146,8 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "title": "posts",
-      "path": "[[workspace]]/content/posts"
+      "title": "2024",
+      "path": "[[workspace]]/content/posts/2024"
     }
-  ],
-  "frontMatter.content.snippets": {
-    "basic frontmatter": {
-      "description": "basic frontmater",
-      "body": [
-        "featuredImage: \"\"",
-        "featuredImagePreview: \"\"",
-        "tags:",
-        "  - blog",
-        "categories: []",
-        "",
-        "hiddenFromHomePage: false",
-        "hiddenFromSearch: false",
-        "",
-        "",
-        "toc:",
-        "  enable: true",
-        "math:",
-        "  enable: false",
-        "lightgallery: false",
-        "license: \"\"",
-        "---",
-        "blah",
-        "<!--more-->"
-      ],
-      "fields": []
-    }
-  },
-  "frontMatter.website.host": "https://larry.wapnitsky.com",
-  "frontMatter.framework.startCommand": "hugo server -D --disableFastRender",
-  "frontMatter.git.enabled": true
+  ]
 }
